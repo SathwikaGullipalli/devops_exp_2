@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form id="RegistrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br><br>
+        <label for="event">select event:</label>
+               <select id="event" name="event">
+            <br><br>
+            <option>workshop</option>
+            <option>seminar</option>
+            <option >conference</option>
+        </select>  <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" />
+        <br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Transgender">Transgender</option>
+        </select>
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+    <script src="code.js"></script>
+</body>
+</html>
